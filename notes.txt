@@ -1,0 +1,14 @@
+Hello my Friend !!
+for git initialization - git init
+to add a file to stagging - git add filename.etc
+to check the status of file/folder - git status 
+to see the differences after changing the file content - git diff 
+to commit a file - git commit -m "someKind_OfMsg"
+to push a file to github repo :
+- git remote add origin https://github.com/user-name/file-name
+- git remote -v (to check whether the conection got stablish or not)
+- git branch (to know that currently on which branch we are ?)
+- git branch -M main (to rename the branch to 'main')
+- git push origin -u main
+to see what are the files have been commited - git show --stat OR git show --name-only --format=""
+to see info about commits - git log OR git log --oneline OR git log --oneline --graph
